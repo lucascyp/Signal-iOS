@@ -131,7 +131,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Versão do banco de dados desconhecida.";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Os dados transferidos do seu antigo aparelho não puderam ser restaurados. Por favor, envie um registro de debug para support@signal.org para que possamos verificar este problema. Se você reinstalar o Signal, o seu histórico de mensagens poderá ser suprimido.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Os dados transferidos do seu antigo aparelho não puderam ser restaurados. Por favor, envie um registro de debug para support@signal.org para que possamos verificar este problema. Se você reinstalar o Signal, o seu histórico de mensagens poderá ser perdido.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Não foi possível completar a transferência";
@@ -215,7 +215,7 @@
 "ATTACHMENT_ERROR_COULD_NOT_PARSE_IMAGE" = "Não foi possível analisar a imagem.";
 
 /* Attachment error message for image attachments in which metadata could not be removed */
-"ATTACHMENT_ERROR_COULD_NOT_REMOVE_METADATA" = "Não foi possível suprimir os metadados da imagem.";
+"ATTACHMENT_ERROR_COULD_NOT_REMOVE_METADATA" = "Não foi possível remover os metadados da imagem.";
 
 /* Attachment error message for image attachments which could not be resized */
 "ATTACHMENT_ERROR_COULD_NOT_RESIZE_IMAGE" = "Impossível redimensionar imagem.";
@@ -374,7 +374,7 @@
 "BLOCK_LIST_BLOCKED_GROUPS_SECTION" = "Grupos bloqueados";
 
 /* Section header for users that have been blocked */
-"BLOCK_LIST_BLOCKED_USERS_SECTION" = "Pessoas bloquadas";
+"BLOCK_LIST_BLOCKED_USERS_SECTION" = "Pessoas bloqueadas";
 
 /* Error message indicating that a conversation can't be blocked because they are already blocked. */
 "BLOCK_LIST_ERROR_CONVERSATION_ALREADY_IN_BLOCKLIST" = "Grupo já bloqueado.";
@@ -614,16 +614,16 @@
 "COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Você pode permitir o acesso aos contatos no app Ajustes do iOS para ver quais estão usando Signal.";
 
 /* No comment provided by engineer. */
-"CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Essa ação irá reiniciar as configurações do aplicativo, suprimindo todas as suas mensagens e seu registro no servidor. O aplicativo será fechado após o término deste processo.";
+"CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Essa ação irá reiniciar as configurações do aplicativo, apagando todas as suas mensagens e seu registro no servidor. O aplicativo será fechado após o término deste processo.";
 
 /* No comment provided by engineer. */
-"CONFIRM_ACCOUNT_DESTRUCTION_TITLE" = "Tem certeza de que deseja suprimir sua conta?";
+"CONFIRM_ACCOUNT_DESTRUCTION_TITLE" = "Tem certeza de que deseja deletar sua conta?";
 
 /* No comment provided by engineer. */
-"CONFIRM_DELETE_LINKED_DATA_TEXT" = "Essa ação irá reiniciar as configurações o aplicativo, suprimindo todas as suas mensagens salvas neste aparelho. Você poderá vincular seu telefone novamente a esta conta do Signal, mas isso não restaurará as mensagens suprimidas. O aplicativo será fechado após o término do processo.";
+"CONFIRM_DELETE_LINKED_DATA_TEXT" = "Essa ação irá reiniciar as configurações o aplicativo, excluindo todas as suas mensagens salvas neste aparelho. Você poderá vincular seu telefone novamente a esta conta do Signal, mas isso não restaurará as mensagens excluídas. O aplicativo será fechado após o término do processo.";
 
 /* No comment provided by engineer. */
-"CONFIRM_DELETE_LINKED_DATA_TITLE" = "Tem certeza que deseja suprimir todos os dados?";
+"CONFIRM_DELETE_LINKED_DATA_TITLE" = "Tem certeza que deseja excluir todos os dados?";
 
 /* Alert body */
 "CONFIRM_LEAVE_GROUP_DESCRIPTION" = "Você não poderá mais enviar nem receber mensagens neste grupo.";
@@ -938,16 +938,16 @@
 "CONVERSATION_SETTINGS_NEW_CONTACT" = "Criar novo contato";
 
 /* Label for 'remove from group' button in conversation settings view. */
-"CONVERSATION_SETTINGS_REMOVE_FROM_GROUP_BUTTON" = "Suprimir do grupo";
+"CONVERSATION_SETTINGS_REMOVE_FROM_GROUP_BUTTON" = "Remover do grupo";
 
 /* Format for title for 'remove from group' confirmation alert. Embeds {user to remove from the group}. */
-"CONVERSATION_SETTINGS_REMOVE_FROM_GROUP_TITLE_FORMAT" = "Suprimir %@ do grupo?";
+"CONVERSATION_SETTINGS_REMOVE_FROM_GROUP_TITLE_FORMAT" = "Remover %@ do grupo?";
 
 /* Label for 'revoke group admin' button in conversation settings view. */
-"CONVERSATION_SETTINGS_REVOKE_GROUP_ADMIN_BUTTON" = "Suprimir como admin";
+"CONVERSATION_SETTINGS_REVOKE_GROUP_ADMIN_BUTTON" = "Remover como admin";
 
 /* Format for title for 'revoke group admin' confirmation alert. Embeds {user to revoke admin status from}. */
-"CONVERSATION_SETTINGS_REVOKE_GROUP_ADMIN_TITLE_FORMAT" = "Suprimir %@ como admin do grupo?";
+"CONVERSATION_SETTINGS_REVOKE_GROUP_ADMIN_TITLE_FORMAT" = "Remover %@ como admin do grupo?";
 
 /* Table cell label in conversation settings which returns the user to the conversation with 'search mode' activated */
 "CONVERSATION_SETTINGS_SEARCH" = "Procurar na Conversa";
@@ -986,7 +986,7 @@
 "CONVERSATION_VIEW_ADD_TO_CONTACTS_OFFER" = "Adicionar aos Contatos";
 
 /* button text to delete all items in the current conversation */
-"CONVERSATION_VIEW_DELETE_ALL_MESSAGES" = "Suprimir todas";
+"CONVERSATION_VIEW_DELETE_ALL_MESSAGES" = "Excluir todas";
 
 /* Indicates that the app is loading more messages in this conversation. */
 "CONVERSATION_VIEW_LOADING_MORE_MESSAGES" = "Carrengando Mais Mensagens...";
@@ -1154,7 +1154,7 @@
 "DEVICE_TRANSFER_ERROR_MODE_MISMATCH_PRIMARY" = "Para transferir sua conta, você precisa escanear com o seu iPhone.";
 
 /* An error indicating that the user does not have enough free space on their device to complete the transfer */
-"DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = " Não há espaço suficiente para completar a transferência";
+"DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Não há espaço suficiente para completar a transferência";
 
 /* An error indicating the user must update their device before trying to transfer. */
 "DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Atualize com a última versão do Signal e tente novamente";
@@ -1328,10 +1328,10 @@
 "ERROR_DESCRIPTION_LOG_UPLOAD_FAILED" = "Falha ao enviar o registro.";
 
 /* Error message indicating that message send is disabled due to prekey update failures */
-"ERROR_DESCRIPTION_MESSAGE_SEND_DISABLED_PREKEY_UPDATE_FAILURES" = "Não foi possível enviar por causa de erros ao atualizar pré-chave .";
+"ERROR_DESCRIPTION_MESSAGE_SEND_DISABLED_PREKEY_UPDATE_FAILURES" = "Não foi possível enviar por causa de erros ao atualizar pré-chave.";
 
 /* Error message indicating that message send failed due to block list */
-"ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Mensagem não enviada a essa pessoa porque você a bloqueou .";
+"ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST" = "Mensagem não enviada a essa pessoa porque você a bloqueou.";
 
 /* Generic error used whenever Signal can't contact the server */
 "ERROR_DESCRIPTION_NO_INTERNET" = "O Signal não pôde se conectar à internet. Por favor tente novamente.";
@@ -1445,7 +1445,7 @@
 "GALLERY_TILES_EMPTY_GALLERY" = "Não há mídias nesta conversa.";
 
 /* Label indicating loading is in progress */
-"GALLERY_TILES_LOADING_MORE_RECENT_LABEL" = "Carregando Novas Mídias...";
+"GALLERY_TILES_LOADING_MORE_RECENT_LABEL" = "Carregando novas mídias...";
 
 /* Label indicating loading is in progress */
 "GALLERY_TILES_LOADING_OLDER_LABEL" = "Carregando mídias antigas...";
@@ -1616,7 +1616,7 @@
 "GROUP_CALL_START_BUTTON" = "Começar a Chamada";
 
 /* Tooltip highlighting group calls. */
-"GROUP_CALL_START_TOOLTIP" = "Tap here to start a group call";
+"GROUP_CALL_START_TOOLTIP" = "Selecione aqui para iniciar uma chamada em grupo";
 
 /* Text explaining that you started a group call. */
 "GROUP_CALL_STARTED_BY_YOU" = "Você começou uma chamada em grupo";
@@ -1643,10 +1643,10 @@
 "GROUP_CALL_YOU_ON_ANOTHER_DEVICE" = "Você (em outro aparelho)";
 
 /* Body for group calls megaphone */
-"GROUP_CALLS_MEGAPHONE_BODY" = "Open a New Group to start a free encrypted group call";
+"GROUP_CALLS_MEGAPHONE_BODY" = "Abra um novo grupo para inciar uma chamada em grupo grátis";
 
 /* Title for group calls megaphone */
-"GROUP_CALLS_MEGAPHONE_TITLE" = "Introducing Group Calls";
+"GROUP_CALLS_MEGAPHONE_TITLE" = "Introduzindo Chamada em Grupo";
 
 /* Message indicating that group was created by the local user. */
 "GROUP_CREATED_BY_LOCAL_USER" = "Você criou o grupo.";
@@ -1667,7 +1667,7 @@
 "GROUP_INVALID_INVITES_ADDED_BY_LOCAL_USER_1" = "Você adicionou um convite inválido.";
 
 /* Message indicating that multiple invalid invites were added by the local user. */
-"GROUP_INVALID_INVITES_ADDED_BY_LOCAL_USER_N" = "Você adicionou convites inválidos";
+"GROUP_INVALID_INVITES_ADDED_BY_LOCAL_USER_N" = "Você adicionou convites inválidos.";
 
 /* Message indicating that 1 invalid invite was added by another user. Embeds {{remote user name}}. */
 "GROUP_INVALID_INVITES_ADDED_BY_REMOTE_USER_FORMAT_1" = "%@ adicionou um convite inválido.";
@@ -1685,7 +1685,7 @@
 "GROUP_INVALID_INVITES_REMOVED_BY_LOCAL_USER_1" = "Você revogou um convite inválido.";
 
 /* Message indicating that multiple invalid invites were revoked by the local user. */
-"GROUP_INVALID_INVITES_REMOVED_BY_LOCAL_USER_N" = "Você revogou convites inválidos";
+"GROUP_INVALID_INVITES_REMOVED_BY_LOCAL_USER_N" = "Você revogou convites inválidos.";
 
 /* Message indicating that 1 invalid invite was revoked by another user. Embeds {{remote user name}}. */
 "GROUP_INVALID_INVITES_REMOVED_BY_REMOTE_USER_FORMAT_1" = "%@ revogou um convite inválido.";
@@ -2111,13 +2111,13 @@
 "GROUP_UPDATED_BY_REMOTE_USER_FORMAT" = "%@ atualizou o grupo.";
 
 /* Message indicating that the group's name was removed. */
-"GROUP_UPDATED_NAME_REMOVED" = "O nome do grupo foi suprimido.";
+"GROUP_UPDATED_NAME_REMOVED" = "O nome do grupo foi removido.";
 
 /* Message indicating that the group's name was removed by the local user. */
-"GROUP_UPDATED_NAME_REMOVED_BY_LOCAL_USER" = "Você suprimiu o nome do grupo.";
+"GROUP_UPDATED_NAME_REMOVED_BY_LOCAL_USER" = "Você removeu o nome do grupo.";
 
 /* Message indicating that the group's name was removed by a remote user. Embeds {{user who removed the name}}. */
-"GROUP_UPDATED_NAME_REMOVED_BY_REMOTE_USER_FORMAT" = "%@ suprimiu o nome do grupo.";
+"GROUP_UPDATED_NAME_REMOVED_BY_REMOTE_USER_FORMAT" = "%@ removeu o nome do grupo.";
 
 /* Message indicating that the group's name was changed by the local user. Embeds {{new group name}}. */
 "GROUP_UPDATED_NAME_UPDATED_BY_LOCAL_USER_FORMAT" = "Você mudou o nome do grupo para “%@“.";
@@ -2177,7 +2177,7 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "O que são Grupos Legados?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Grupos Legado ainda não podem ser atualizados para Novos Grupos, mas você pode criar um Novo Grupo com os mesmos membros se eles estiverem usando a última versão do Signal.\n\nO Signal oferecerá uma maneira de atualizar os Grupos Legados no futuro.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Grupos Legados ainda não podem ser atualizados para Novos Grupos, mas você pode criar um Novo Grupo com os mesmos membros se eles estiverem usando a última versão do Signal.\n\nO Signal oferecerá uma maneira de atualizar os Grupos Legados no futuro.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Posso atualizar um Grupo Legado?";
@@ -2639,10 +2639,10 @@
 "MEDIA_FROM_LIBRARY_BUTTON" = "Fototeca";
 
 /* Confirmation button text to delete selected media from the gallery, embeds {{number of messages}} */
-"MEDIA_GALLERY_DELETE_MULTIPLE_MESSAGES_FORMAT" = "Suprimir %d mensagens";
+"MEDIA_GALLERY_DELETE_MULTIPLE_MESSAGES_FORMAT" = "Remover %d mensagens";
 
 /* Confirmation button text to delete selected media message from the gallery */
-"MEDIA_GALLERY_DELETE_SINGLE_MESSAGE" = "Suprimir mensagem";
+"MEDIA_GALLERY_DELETE_SINGLE_MESSAGE" = "Remover mensagem";
 
 /* Format for the 'more items' indicator for media galleries. Embeds {{the number of additional items}}. */
 "MEDIA_GALLERY_MORE_ITEMS_FORMAT" = "+%@";
@@ -2669,16 +2669,16 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Esta mensagem será apagada para todos os participantes desta conversa, se estiverem usando a versão mais recente do Signal. Eles poderão ver que você apagou uma mensagem.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
-"MESSAGE_ACTION_DELETE_FOR_TITLE" = "Para quem você deseja que essa mensagem seja suprimida?";
+"MESSAGE_ACTION_DELETE_FOR_TITLE" = "Para quem você deseja que essa mensagem seja removida?";
 
 /* The title for the action that deletes a message for the local user only. */
-"MESSAGE_ACTION_DELETE_FOR_YOU" = "Suprimir para mim";
+"MESSAGE_ACTION_DELETE_FOR_YOU" = "Remover para mim";
 
 /* Action sheet button title */
-"MESSAGE_ACTION_DELETE_MESSAGE" = "Suprimir essa mensagem";
+"MESSAGE_ACTION_DELETE_MESSAGE" = "Remover essa mensagem";
 
 /* accessibility label */
-"MESSAGE_ACTION_DELETE_SELECTED_MESSAGES" = "Suprimir as mensagens selecionadas";
+"MESSAGE_ACTION_DELETE_SELECTED_MESSAGES" = "Remover as mensagens selecionadas";
 
 /* Action sheet button title */
 "MESSAGE_ACTION_DETAILS" = "Detalhes";
@@ -2765,7 +2765,7 @@
 "MESSAGE_REQUEST_BLOCK_GROUP_TITLE_FORMAT" = "Bloquear e sair de %@?";
 
 /* Action sheet action to confirm deleting a conversation via a message request. */
-"MESSAGE_REQUEST_DELETE_CONVERSATION_ACTION" = "Suprimir";
+"MESSAGE_REQUEST_DELETE_CONVERSATION_ACTION" = "Apagar";
 
 /* Action sheet message to confirm deleting a conversation via a message request. */
 "MESSAGE_REQUEST_DELETE_CONVERSATION_MESSAGE" = "Esta conversa será excluída de todos os seus dispositivos.";
@@ -2774,13 +2774,13 @@
 "MESSAGE_REQUEST_DELETE_CONVERSATION_TITLE" = "Excluir a conversa?";
 
 /* Action sheet action to confirm deleting a group via a message request. */
-"MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_ACTION" = "Suprimir e sair";
+"MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_ACTION" = "Apagar e sair";
 
 /* Action sheet message to confirm deleting a group via a message request. */
-"MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_MESSAGE" = "Você sairá deste grupo, que será surprimido em todos os seus aparelhos.";
+"MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_MESSAGE" = "Você sairá deste grupo, que será removido em todos os seus aparelhos.";
 
 /* Action sheet title to confirm deleting a group via a message request. */
-"MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Suprimir e sair do grupo?";
+"MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Apagar e sair do grupo?";
 
 /* A button used to accept a user on an incoming message request. */
 "MESSAGE_REQUEST_VIEW_ACCEPT_BUTTON" = "Aceitar";
@@ -2909,7 +2909,7 @@
 "MULTIDEVICE_PAIRING_MAX_DESC" = "Você não pode vincular mais aparelhos.";
 
 /* alert body: cannot link - reached max linked devices */
-"MULTIDEVICE_PAIRING_MAX_RECOVERY" = "Você atingiu o número máximo de aparelhos que podem atualmente ser vinculados à sua conta. Por favor, suprima um aparelho e tente novamente.";
+"MULTIDEVICE_PAIRING_MAX_RECOVERY" = "Você atingiu o número máximo de aparelhos que podem atualmente ser vinculados à sua conta. Por favor, remova um aparelho e tente novamente.";
 
 /* An explanation of the consequences of muting a thread. */
 "MUTE_BEHAVIOR_EXPLANATION" = "Você não receberá notificações de conversas silenciadas.";
@@ -3056,7 +3056,7 @@
 "OK" = "OK";
 
 /* Label indicating that the 2fa pin is exhausted in the 'onboarding 2fa' view. */
-"ONBOARDING_2FA_ATTEMPTS_EXHAUSTED" = "PIN incorreto. Tentativas esgotadas";
+"ONBOARDING_2FA_ATTEMPTS_EXHAUSTED" = "PIN incorreto. Tentativas esgotadas.";
 
 /* Label for the 'create new pin' button when reglock is disabled during onboarding. */
 "ONBOARDING_2FA_CREATE_NEW_PIN" = "Criar Novo PIN";
@@ -3143,7 +3143,7 @@
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Saiba mais sobre PINs";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is enabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_REGLOCK_EXPLANATION" = "Para proteger a privacidade e a segurança de sua conta, nós a bloqueamos por 7 dias. \n\nApós 7 dias de inatividade, você poderá registrar novamente este número de telefone sem precisar de um PIN. Todo o conteúdo será suprimido.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_REGLOCK_EXPLANATION" = "Para proteger a privacidade e a segurança de sua conta, nós a bloqueamos por 7 dias. \n\nApós 7 dias de inatividade, você poderá registrar novamente este número de telefone sem precisar de um PIN. Todo o conteúdo será removido.";
 
 /* Label for the 'learn more' link when reglock is enabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_REGLOCK_LEARN_MORE" = "Saiba mais sobre contas bloqueadas";
@@ -3269,7 +3269,7 @@
 "PENDING_GROUP_MEMBERS_REVOKE_INVITE_1_BUTTON" = "Revogar convite";
 
 /* Format for title of 'revoke invite' confirmation alert. Embeds {{ the name of the inviting group member. }}. */
-"PENDING_GROUP_MEMBERS_REVOKE_INVITE_CONFIRMATION_TITLE_1_FORMAT" = "Revogar convite de grupo enviado por  “%@“?";
+"PENDING_GROUP_MEMBERS_REVOKE_INVITE_CONFIRMATION_TITLE_1_FORMAT" = "Revogar convite de grupo enviado por “%@“?";
 
 /* Format for title of 'revoke invite' confirmation alert. Embeds {{ %1$@ the number of users they have invited, %2$@ name of the inviting group member. }}. */
 "PENDING_GROUP_MEMBERS_REVOKE_INVITE_CONFIRMATION_TITLE_N_FORMAT" = "Revogar %1$@ convites enviados por \"%2$@\"?";
@@ -3743,7 +3743,7 @@
 "READ_ACTION" = "Lida";
 
 /* Error message indicating that a user can't be selected. */
-"RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Não é possível selecionar essa pessoa";
+"RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Não é possível selecionar essa pessoa.";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Esqueci meu PIN.";
@@ -3767,7 +3767,7 @@
 "REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_REGLOCK_PLURAL_FORMAT" = "Você tem mais %lu tentativas restantes. Se suas tentativas acabarem, sua conta será bloqueada. Depois de 7 dias de inatividade, você pode se registrar novamente sem um PIN. Sua conta será suprimida e seu conteúdo apagado.";
 
 /* Alert message explaining what happens if you get your pin wrong and have one attempt remaining 'two-factor auth pin' with reglock enabled. */
-"REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_REGLOCK_SINGLE" = "Resta uma tentativa. Se você esgotar as suas tentativas, a sua conta será bloqueada. Após 7 dias de inatividade, você poderá se registrar novamente sem o seu PIN. Todo o conteúdo da sua conta será suprimido.";
+"REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_REGLOCK_SINGLE" = "Resta uma tentativa. Se você esgotar as suas tentativas, a sua conta será bloqueada. Após 7 dias de inatividade, você poderá se registrar novamente sem o seu PIN. Todo o conteúdo da sua conta será apagado.";
 
 /* Alert message explaining what happens if you get your pin wrong and have one attempt remaining 'two-factor auth pin' with reglock disabled. */
 "REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_SINGLE" = "Resta uma tentativa. Se você esgotá-la antes de conseguir se lembrar do seu PIN, poderá criar um outro. Nesse caso, você pode se registrar e usar sua conta, mas perderá algumas configurações salvas, como as informações do seu perfil.";
@@ -4103,13 +4103,13 @@
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Versão incompatível";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "O seu outro aparelho está rodando uma versão antiga do Signal, não compatível com o escaneamento de códigos QR do iPad. Por favor, instale a versão mais recente e tente de novo.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "O seu outro aparelho está rodando uma versão antiga do Signal, não compatível com o escaneamento de códigos QR do iPad. Por favor, instale a versão mais recente e tente novamente.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Atualize seu aparelho que está escaneando";
 
 /* alert title */
-"SECONDARY_LINKING_ERROR_WAITING_FOR_SCAN" = "Falha vincular seu aparelho";
+"SECONDARY_LINKING_ERROR_WAITING_FOR_SCAN" = "Falha ao vincular seu aparelho";
 
 /* header text when this device is being added as a secondary */
 "SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME" = "Escolha um nome para este aparelho";
@@ -4268,7 +4268,7 @@
 "SETTINGS_BACKUP_ICLOUD_STATUS" = "Status da iCloud";
 
 /* Indicates that the last backup restore failed. */
-"SETTINGS_BACKUP_IMPORT_STATUS_FAILED" = "Falha ao restaurar copia de segurança";
+"SETTINGS_BACKUP_IMPORT_STATUS_FAILED" = "Falha ao restaurar cópia de segurança";
 
 /* Indicates that app is not restoring up. */
 "SETTINGS_BACKUP_IMPORT_STATUS_IDLE" = "Restauração ociosa";
@@ -4307,7 +4307,7 @@
 "SETTINGS_BLOCK_LIST_FOOTER" = "Lista de contatos e grupos que você bloqueou.";
 
 /* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Você não possui contatos no Signal";
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Você não possui contatos no Signal.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Nenhum resultado encontrado";
@@ -4328,16 +4328,16 @@
 "SETTINGS_COPYRIGHT" = "Copyright Signal Messenger \n Licenciado nos termos da GPLv3";
 
 /* No comment provided by engineer. */
-"SETTINGS_DELETE_ACCOUNT_BUTTON" = "Suprimir conta";
+"SETTINGS_DELETE_ACCOUNT_BUTTON" = "Apagar conta";
 
 /* Label for 'delete data' button. */
-"SETTINGS_DELETE_DATA_BUTTON" = "Suprimir todos os dados";
+"SETTINGS_DELETE_DATA_BUTTON" = "Apagar todos os dados";
 
 /* Alert message before user confirms clearing history */
-"SETTINGS_DELETE_HISTORYLOG_CONFIRMATION" = "Tem certeza de que deseja suprimir todo seu histórico (mensagens, anexos, chamadas, etc.)? Essa ação não pode ser revertida.";
+"SETTINGS_DELETE_HISTORYLOG_CONFIRMATION" = "Tem certeza de que deseja apagar todo seu histórico (mensagens, anexos, chamadas, etc.)? Essa ação não pode ser revertida.";
 
 /* Confirmation text for button which deletes all message, calling, attachments, etc. */
-"SETTINGS_DELETE_HISTORYLOG_CONFIRMATION_BUTTON" = "Suprimir tudo";
+"SETTINGS_DELETE_HISTORYLOG_CONFIRMATION_BUTTON" = "Remover tudo";
 
 /* Title for the 'donate to signal' link in settings. */
 "SETTINGS_DONATE" = "Doar para o Signal";
@@ -4688,7 +4688,7 @@
 "SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER" = "Verificar";
 
 /* text indicating the message was remotely deleted */
-"THIS_MESSAGE_WAS_DELETED" = "Essa mensagem foi suprimida.";
+"THIS_MESSAGE_WAS_DELETED" = "Essa mensagem foi removida.";
 
 /* A string indicating two mutual groups the user shares with this contact and that there are more unlisted. Embeds {{mutual group name}} */
 "THREAD_DETAILS_MORE_MUTUAL_GROUP" = "Membro de %@, %@, e %lu outros grupos";
@@ -4763,7 +4763,7 @@
 "TXT_CANCEL_TITLE" = "Cancelar";
 
 /* Label for the delete button in an alert or action sheet. */
-"TXT_DELETE_TITLE" = "Suprimir";
+"TXT_DELETE_TITLE" = "Apagar";
 
 /* Label for the unarchive button for conversations list view */
 "UNARCHIVE_ACTION" = "Desarquivar";
@@ -4925,13 +4925,13 @@
 "VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_LOCAL" = "Você marcou %@ como não verificado/a.";
 
 /* Format for info message indicating that the verification state was unverified on another device. Embeds {{user's name or phone number}}. */
-"VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_OTHER_DEVICE" = "Você marcou %@  como não verificado. em um outro aparelho.";
+"VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_OTHER_DEVICE" = "Você marcou %@ como não verificado em um outro aparelho.";
 
 /* Format for info message indicating that the verification state was verified on this device. Embeds {{user's name or phone number}}. */
 "VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_LOCAL" = "Você marcou %@ como verificado/a.";
 
 /* Format for info message indicating that the verification state was verified on another device. Embeds {{user's name or phone number}}. */
-"VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_OTHER_DEVICE" = "Você marcou%@  como verificado em um outro aparelho.";
+"VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_OTHER_DEVICE" = "Você marcou %@ como verificado em um outro aparelho.";
 
 /* Generic message indicating that verification state changed for a given user. */
 "VERIFICATION_STATE_CHANGE_GENERIC" = "Estado da verificação mudou.";
@@ -4970,7 +4970,7 @@
 "WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Termine a configuração no Signal Desktop.";
 
 /* text indicating the message was remotely deleted by you */
-"YOU_DELETED_THIS_MESSAGE" = "Você suprimiu esta mensagem.";
+"YOU_DELETED_THIS_MESSAGE" = "Você apagou esta mensagem.";
 
 /* Info Message when you disabled disappearing messages. */
 "YOU_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Você desabilitou as mensagens efêmeras.";
